@@ -1,0 +1,128 @@
+ruby non_join.rb 
+ruby non_join.rb 
+ruby non_join.rb 
+ruby non_join.rb 
+ruby non_join.rb 
+ruby non_join.rb 
+touch non_join2.rb
+cp non_join.rb non_join2.rb 
+which ruby
+ruby non_join.rb
+cd ~/.emacs.d/
+ls
+cd elpa/
+ls
+cd ..
+mkdir packages
+cd packages/
+touch ruby-debug.el
+rm ruby-debug.el 
+cp ~/Desktop/ruby-debug.el .
+ls
+cd ~/Desktop/examplesRB/
+touch cosine_simil.rb
+ruby cosine_simil.rb
+git status
+git ../routes/utilities.rb 
+git diff ../routes/utilities.rb 
+which ruby
+ruby db_testing.rb 
+ruby db_testing.rb 
+ruby db_testing.rb 
+ruby db_testing.rb 
+ruby db_testing.rb 
+ruby db_testing.rb 
+irb
+ruby db_testing.rb 
+ruby db_testing.rb 
+git status
+git checkout ../db_testing.rb 
+git status
+cd ..
+git status
+touch ~/Desktop/isa_src/tomee.xml
+find-file tomee.xml
+rm ~/Desktop/isa_src/tomee.xml 
+cd ~/.emacs.d/
+ls
+cd packages/
+ls
+mv ~/Desktop/markdown-mode.el .
+ls
+ls
+sl
+ls
+cd 
+cd /media/novak/Storage/
+grep *rails*
+cd .
+cd /
+grep simple_cms
+cd ~/Desktop/
+touch bckp.el
+touch bckp-full.el
+cd ~
+ls
+cd .emacs.d/
+ls
+mkdir themes
+cd theme
+cd themes/
+touch color-theme-github
+mv color-theme-github color-theme-github.el
+ls
+mv color-theme-github.el color-theme-github-theme.el
+ls
+rm color-theme-github.el\~ color-theme-github~
+ls
+mv color-theme-github-theme.el github-theme.el
+ls
+cd themes/
+ls
+touch xemacs-theme.el
+which ruby
+bundle install
+pwd
+cd elpa/yasnippet-20150212.240/
+ls
+cd snippets/
+ls
+cd elpa/
+ls
+cd yasnippet-20150212.240/
+ls
+cd ..
+cd ..
+ls
+ls -a
+ls | grep "*snippet*"
+mkdir snippets
+ls
+ls | grep "*snippet*"
+ls | grep "*snippets*"
+ls -a | grep "*snippets*"
+ls -a | grep *snippets*
+ls -a | grep snippets
+cd ../
+ls
+cd /media/novak/Storage/Sites/simple_cms/
+which ruby
+bundle install
+cd ..
+cd .
+cd ..
+lein run
+lein uberjar
+lein repl
+ls -a | grep .lein
+cd .lein/
+ls
+touch profiles.clj
+ls
+cd src/
+ls
+cd clojure_noob/
+ls
+mv exercise-one.clj exc-hobbit.clj
+git --version
+ssh

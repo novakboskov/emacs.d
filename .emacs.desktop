@@ -1,0 +1,51 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Mar 27 12:51:18 2015
+;; Desktop file format version 206
+;; Emacs version 24.3.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("let" "needs-" "-radial" "needs-matching-parts?" "needs-matching-parts" "password" "failse" "some" "main" "smart" "cider" "install" "robe" "rvm" "robe" "helm"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs.d/init.el" "/media/novak/Storage/Clojure/clojure-noob/src/clojure_noob/exc-hobbit.clj" "/media/novak/Storage/Clojure/clojure-noob/src/clojure_noob/core-foons-in-depth.clj" "~/.lein/profiles.clj" "/media/novak/Storage/Sites/simple_cms/app/controllers/demo_controller.rb" "/media/novak/Storage/Sites/simple_cms/Gemfile" "~/.emacs.d/elpa/archives/melpa/archive-contents" "~/.emacs.d/elpa/archives/gnu/archive-contents" "/media/novak/Storage/FAKULTET/ISA/files/Vezbe09/src/isa/project/servlet/PrepareCreateCategoryControllerP.java" "/media/novak/Storage/Sites/simple_cms/app/controllers/application_controller.rb" "~/.emacs.d/elpa/anti-zenburn-theme-readme.txt" "~/.emacs.d/elpa/anti-zenburn-theme-20150214.1650/anti-zenburn-theme-autoloads.el" "/media/novak/Storage/Sites/simple_cms/db/schema.rb" "~/.emacs.d/themes/xemacs-theme.el" "~/.emacs.d/themes/github-theme.el" "~/.emacs.d/elpa/zenburn-theme-20150214.131/zenburn-theme-autoloads.el" "/media/novak/Storage/Sites/simple_cms/app/helpers/demo_helper.rb" "/media/novak/Storage/Sites/simple_cms/Gemfile.lock" "/media/novak/Storage/FAKULTET/SoftCoputing/projekat/facebook-template-ruby/app.rb" "/media/novak/Storage/FAKULTET/SoftCoputing/projekat/facebook-template-ruby/static/privacypolicy.htm" "/media/novak/Storage/FAKULTET/SoftCoputing/projekat/facebook-template-ruby/Readme.md" "~/.emacs.d/elpa/helm-projectile-readme.txt" "~/.emacs.d/elpa/helm-projectile-20150222.312/helm-projectile-autoloads.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/media/novak/Storage/Clojure/clojure-noob/src/clojure_noob/core-foons-in-depth.clj"
+  "core-foons-in-depth.clj"
+  'clojure-mode
+  '(linum-mode auto-complete-mode projectile-mode eldoc-mode global-auto-revert-mode helm-mode yas-minor-mode company-mode cider-mode)
+  5890
+  '(5767 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/media/novak/Storage/Clojure/clojure-noob/src/clojure_noob/exc-hobbit.clj"
+  "exc-hobbit.clj"
+  'clojure-mode
+  '(linum-mode auto-complete-mode projectile-mode eldoc-mode global-auto-revert-mode helm-mode yas-minor-mode company-mode cider-mode)
+  4228
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/novak/.lein/profiles.clj"
+  "profiles.clj"
+  'clojure-mode
+  '(linum-mode auto-complete-mode projectile-mode eldoc-mode global-auto-revert-mode helm-mode yas-minor-mode company-mode cider-mode)
+  49
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+

@@ -1,0 +1,380 @@
+((("group" .
+   [0 0 0 1 0])
+  ("variable-link" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("documentation-property" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("package-archive-contents" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("package-archives" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("symbol-plist" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("lazy-seq" .
+   [0 0 0 0 0 0 1 0])
+  ("Lazy" .
+   [0 0 0 1])
+  ("1-" .
+   [1 0])
+  ("even-numbers" .
+   [0 0 0 0 0 0 3 0 1 0 0 0])
+  ("rand-int" .
+   [0 0 0 0 0 0 1 0])
+  ("repeatedly" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("concat" .
+   [0 0 0 0 0 1])
+  ("repeat" .
+   [0 0 0 0 0 1])
+  ("alias-identities" .
+   [0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0])
+  ("identities" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("snitch" .
+   [0 0 0 1 0 0])
+  ("identiy" .
+   [0 0 0 0 1 0 0])
+  (":alias" .
+   [1 0 0 0 0 1])
+  (":real" .
+   [1 0 0 0 0])
+  ("range" .
+   [0 0 0 0 1])
+  ("identify-vampire" .
+   [0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0])
+  ("vampire?" .
+   [0 0 0 0 1 0 0 0])
+  ("vampire-related-details" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":has-pulse?" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("record" .
+   [0 0 0 0 2 0])
+  (":makes-blood-puns?" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("social-security-number" .
+   [0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("vampire-database" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("sort-by" .
+   [0 0 0 0 0 0 1])
+  ("critters-lower-than-5" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  (":critter" .
+   [0 0 0 1 1 0 0 0])
+  ("drop-while" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("food-journal" .
+   [0 0 0 1 1 5 0 0 0 0 0 0])
+  (":month" .
+   [0 0 0 0 2 2])
+  ("take-while" .
+   [0 0 0 0 0 0 1 0 0 1])
+  (":human" .
+   [1 0 0 1 0 0])
+  (":min" .
+   [1 0 0 0])
+  (":max" .
+   [1 0 0 0])
+  ("new-map" .
+   [0 0 0 0 0 0 4])
+  ("assoc" .
+   [0 0 0 0 1])
+  ("stats" .
+   [1 0 0 0 0])
+  ("avg" .
+   [1 0 0])
+  ("numbers" .
+   [1 0 0 0 0 0 0])
+  ("count" .
+   [0 0 0 0 1])
+  ("sum" .
+   [2 0 0])
+  ("critter-consumtion" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("human-consumption" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("unify-diet-data" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("critter" .
+   [0 0 1 0 0 0 0])
+  ("human" .
+   [1 0 0 0 0])
+  (":occupation" .
+   [0 0 0 0 1 1 0 0 0 0 0])
+  ("identity" .
+   [0 0 0 0 1 0 0 3])
+  ("label-key-value" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("titleize" .
+   [0 0 0 0 1 2 0 0])
+  ("in" .
+   [1 0])
+  ("second" .
+   [0 0 0 1 0 0])
+  ("eval" .
+   [0 0 0 1])
+  ("failed-protagonist-names" .
+   [0 0 0 0 1 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("defn" .
+   [0 0 1 0])
+  ("a-list-2" .
+   [0 0 0 0 0 0 0 1])
+  ("a-list" .
+   [0 0 0 0 1 0])
+  ("a-vector" .
+   [0 0 0 0 1 0 0 1])
+  ("vector" .
+   [0 0 0 0 0 1])
+  ("nth" .
+   [0 0 1])
+  ("conj" .
+   [0 0 0 3])
+  (":name" .
+   [6 0 0 0 0])
+  ("xemacs" .
+   [0 0 0 0 0 1])
+  ("load-theme" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("key" .
+   [0 0 1])
+  ("message" .
+   [0 0 0 0 0 0 1])
+  ("fmt" .
+   [1 0 0])
+  ("href" .
+   [0 0 0 1])
+  ("true" .
+   [6 0 0 2])
+  ("println" .
+   [0 0 0 0 0 0 5])
+  ("out" .
+   [1 0 0])
+  ("System" .
+   [0 0 0 0 0 1])
+  ("return" .
+   [0 0 0 0 0 1])
+  ("println() : void - PrintStream" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("private" .
+   [1 0 0 0 0 0 0])
+  ("out : PrintStream - System" .
+   [1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("String" .
+   [4 0 0 0 0 0])
+  ("data" .
+   [1 0 0 0])
+  ("false" .
+   [2 0 0 0 0])
+  ("be" .
+   [1 0])
+  ("to" .
+   [1 0])
+  ("calculate" .
+   [0 0 0 0 0 0 0 0 1])
+  ("for" .
+   [1 0 0])
+  ("method" .
+   [2 0 0 0 0 0])
+  ("sim_factor" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("cosine_sim_factor" .
+   [0 0 0 0 0 0 1 0 1 0 0 1 0 0 0 0 1])
+  ("cosine" .
+   [1 0 0 0 0 0])
+  ("nan?" .
+   [0 0 0 1])
+  ("cosin_sim_factor" .
+   [0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0])
+  ("cosine_similarity" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0])
+  ("COSIN" .
+   [1 0 0 0 0])
+  ("c" .
+   [3])
+  ("cosine_sim" .
+   [2 0 0 0 0 1 0 0 0 0])
+  ("reduce" .
+   [2 0 0 0 0 0])
+  ("pearson_score" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 2])
+  ("s" .
+   [1])
+  ("user_name" .
+   [0 0 1 0 0 0 0 1 0])
+  ("person1" .
+   [0 0 0 0 1 0 4])
+  ("r" .
+   [1])
+  ("initialize_http_header" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Person" .
+   [0 0 0 1 0 2])
+  ("new" .
+   [1 0 1])
+  ("n" .
+   [1])
+  ("this" .
+   [1 0 0 0])
+  ("put" .
+   [4 0 0])
+  ("e" .
+   [2])
+  ("say_hello" .
+   [1 0 0 1 1 0 0 0 0])
+  ("last" .
+   [1 0 0 0])
+  ("last_name" .
+   [2 0 0 0 0 0 0 1 0])
+  ("first_name" .
+   [0 0 0 0 0 0 0 0 2 1])
+  ("first" .
+   [0 0 0 2 4])
+  ("name" .
+   [2 0 0 1])
+  ("__init__" .
+   [0 0 0 0 0 1 0 0])
+  ("class" .
+   [0 0 0 0 1])
+  ("professional-theme" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("d" .
+   [3])
+  ("DATA" .
+   [0 0 1 0])
+  ("to_small" .
+   [0 0 0 1 1 0 1 0])
+  ("def" .
+   [23 0 3])
+  ("printf" .
+   [0 0 0 1 0 1])
+  ("require" .
+   [0 0 0 0 0 0 1])
+  ("t" .
+   [1])
+  ("emacs-eclim" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("main" .
+   [1 0 0 0])
+  ("DatagramSocket - java.net" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setDatagramSocketImplFactory(DatagramSocketImplFactory fac) : void - DatagramSocket" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("@Override" .
+   [0 0 1 0 0 0 0 0 0])
+  ("BuyerDaoLocal - isa.project.dao" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("BuyerDaoLocal" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("buyer" .
+   [10 0 0 0 0])
+  ("firstName" .
+   [1 0 0 1 1 2 0 0 0])
+  ("username" .
+   [3 0 0 0 1 1 1 0])
+  ("password" .
+   [2 0 0 0 3 0 0 1])
+  ("phoneNumber" .
+   [0 0 0 1 0 4 0 0 0 0 0])
+  ("address" .
+   [1 0 0 2 0 1 0])
+  ("email" .
+   [3 0 0 4 0])
+  ("lastName" .
+   [1 0 1 1 2 0 0 0])
+  ("Buyer" .
+   [2 0 0 0 0])
+  ("Buyer - isa.project.entity" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setFirstName(String firstName) : void - User" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setFirstName" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("setLastName(String lastName) : void - User" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setUsername(String username) : void - User" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setPassword(String password) : void - User" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setPhoneNumber" .
+   [2 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("setEmail(String email) : void - Buyer" .
+   [0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setAddress(String address) : void - Buyer" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("null" .
+   [9 0 0 0])
+  ("u" .
+   [1])
+  ("firstNameError" .
+   [0 0 0 1 1 0 0 0 0 0 0 0 0 1])
+  ("lastNameError" .
+   [0 0 0 2 0 0 0 0 0 0 1 0 0])
+  ("usernameError" .
+   [1 0 0 0 0 3 0 0 0 0 0 0 0])
+  ("passwordError" .
+   [0 0 0 0 2 1 0 0 0 0 0 0 0])
+  ("p" .
+   [1])
+  ("phoneNumberError" .
+   [0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0])
+  ("addresssError" .
+   [0 0 0 1 0 1 0 0 0 0 0 0 0])
+  ("email : String" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("emailError" .
+   [0 0 0 2 1 0 0 0 0 0])
+  ("request" .
+   [0 0 0 1 0 0 0])
+  ("setAttribute(String arg0, Object arg1) : void - ServletRequest" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("company-robe" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("test class" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("re-find" .
+   [0 0 0 1 0 0 0])
+  ("part" .
+   [7 0 0 1])
+  ("clojure.string/join" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  (":size" .
+   [2 0 0 0 0])
+  ("asym-body-parts" .
+   [0 0 0 1 1 0 0 0 0 0 0 0 0 0 0])
+  ("if" .
+   [3 0])
+  ("empty" .
+   [0 0 0 0 1])
+  ("re" .
+   [5 0])
+  ("remaining-body-parts" .
+   [0 0 0 0 1 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("final-body-parts" .
+   [0 0 0 0 0 3 2 0 0 0 0 0 0 0 0 0])
+  ("a" .
+   [1])
+  ("needs-matching-parts?" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("recur" .
+   [1 0 0 0 2])
+  ("remaining" .
+   [0 0 0 0 0 0 3 0 2])
+  ("make-matching-part" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("symetrize-body-parts" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("initial" .
+   [1 0 0 0 0 0 0])
+  ("coll" .
+   [1 0 0 0])
+  ("empty?" .
+   [0 0 1 0 0 0])
+  ("result" .
+   [0 0 0 0 1 2])
+  ("head" .
+   [1 0 0 1])
+  ("my-reduce" .
+   [0 0 0 0 0 1 0 0 0])
+  ("tail" .
+   [0 0 0 1])))
