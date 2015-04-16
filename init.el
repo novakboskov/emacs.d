@@ -274,3 +274,5 @@ there's a region, all lines that region covers will be duplicated."
 (sp-pair "[" "]")
 (sp-pair "\"" "\"")
 
+;; Hide show minor mode enable on startup - preinstalled
+;; (hs-minor-mode t)

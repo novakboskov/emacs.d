@@ -31,3 +31,7 @@ tramp
 # cask packages
 .cask/
 
+# Additional unneeded packages
+*.dat
+auto-save-list/
+projectile-bookmarks.eld
