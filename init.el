@@ -262,7 +262,7 @@ there's a region, all lines that region covers will be duplicated."
 (require 'flymake-ruby)
 (add-hook 'ruby-mode-hook 'flymake-ruby-load)
 
-;; CIDER basic configuratio
+;; CIDER basic configuration
 (add-hook 'cider-mode-hook #'eldoc-mode)
 (setq nrepl-log-messages t)
 (setq nrepl-hide-special-buffers t)
@@ -276,3 +276,10 @@ there's a region, all lines that region covers will be duplicated."
 
 ;; Hide show minor mode enable on startup - preinstalled
 ;; (hs-minor-mode t)
+
+;; Org-mode configuration
+(setq org-agenda-files (list "/media/novak/Storage/Emacs/org-mode/"))
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-cc" 'org-capture)
+(global-set-key "\C-ca" 'org-agenda)
+(global-set-key "\C-cb" 'org-iswitchb)
