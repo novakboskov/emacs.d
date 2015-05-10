@@ -103,10 +103,11 @@ Position the cursor at it's beginning, according to the current mode."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-safe-themes (quote ("e56f1b1c1daec5dbddc50abd00fcd00f6ce4079f4a7f66052cf16d96412a09a9" "cbef37d6304f12fb789f5d80c2b75ea01465e41073c30341dc84c6c0d1eb611d" "dc758223066a28f3c6ef6c42c9136bf4c913ec6d3b710794252dc072a3b92b14" "a27c00821ccfd5a78b01e4f35dc056706dd9ede09a8b90c6955ae6a390eb1c1e" "e35ef4f72931a774769da2b0c863e11d94e60a9ad97fb9734e8b28c7ee40f49b" default)))
+ '(custom-safe-themes (quote ("26614652a4b3515b4bbbb9828d71e206cc249b67c9142c06239ed3418eff95e2" "e56f1b1c1daec5dbddc50abd00fcd00f6ce4079f4a7f66052cf16d96412a09a9" "cbef37d6304f12fb789f5d80c2b75ea01465e41073c30341dc84c6c0d1eb611d" "dc758223066a28f3c6ef6c42c9136bf4c913ec6d3b710794252dc072a3b92b14" "a27c00821ccfd5a78b01e4f35dc056706dd9ede09a8b90c6955ae6a390eb1c1e" "e35ef4f72931a774769da2b0c863e11d94e60a9ad97fb9734e8b28c7ee40f49b" default)))
  '(eclim-eclipse-dirs (quote ("/opt/eclipse")))
  '(eclim-executable "~/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/eclim")
- '(inhibit-startup-screen t))
+ '(inhibit-startup-screen t)
+ '(org-agenda-files (quote ("/media/novak/Storage/Emacs/plans.org" "/media/novak/Storage/Emacs/fakultet.org" "/media/novak/Storage/Emacs/org-mode/tutorial.org"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
