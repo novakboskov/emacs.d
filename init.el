@@ -107,7 +107,7 @@ Position the cursor at it's beginning, according to the current mode."
  '(eclim-eclipse-dirs (quote ("/opt/eclipse")))
  '(eclim-executable "~/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/eclim")
  '(inhibit-startup-screen t)
- '(org-agenda-files (quote ("/media/novak/Storage/Emacs/plans.org" "/media/novak/Storage/Emacs/fakultet.org" "/media/novak/Storage/Emacs/org-mode/tutorial.org"))))
+ '(org-agenda-files (quote ("/media/novak/Storage/Emacs/plans.org" "/media/novak/Storage/Emacs/org-mode/tutorial.org"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -284,3 +284,17 @@ there's a region, all lines that region covers will be duplicated."
 (global-set-key "\C-cc" 'org-capture)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
+(setq org-todo-keywords
+      '((sequence "TODO(t)" "FEEDBACK(f)" "VERIFY(v)" "|" "DONE(d)" "DELEGATED(l)")))
+(setq org-enforce-todo-dependencies t)
+
+(defun org-summary-todo (n-done n-not-done)
+  "Switch entry to DONE when all subentries are done, to TODO otherwise."
+  (let (org-log-done org-log-states)   ; turn off logging
+    (org-todo (if (= n-not-done 0) "DONE" "TODO"))))
+
+(add-hook 'org-after-todo-statistics-hook 'org-summary-todo)
+
+;; To save the clock history across Emacs sessions
+(setq org-clock-persist 'history)
+(org-clock-persistence-insinuate)
