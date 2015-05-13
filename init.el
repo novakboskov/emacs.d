@@ -298,3 +298,15 @@ there's a region, all lines that region covers will be duplicated."
 ;; To save the clock history across Emacs sessions
 (setq org-clock-persist 'history)
 (org-clock-persistence-insinuate)
+
+;; To resolve idle time
+(setq org-clock-idle-time 30)
+
+;; The following customization sets a default target file for notes
+;; (setq org-default-notes-file (concat org-directory "/notes.org"))
+(setq org-default-notes-file "/media/novak/Storage/Emacs/org-mode/notes.org")
+(define-key global-map "\C-cc" 'org-capture)
+
+;; In order to include entries from the Emacs diary into Org mode's agenda
+(setq org-agenda-include-diary t)
+
