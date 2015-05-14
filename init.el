@@ -310,3 +310,12 @@ there's a region, all lines that region covers will be duplicated."
 ;; In order to include entries from the Emacs diary into Org mode's agenda
 (setq org-agenda-include-diary t)
 
+;; google-translate settings
+(require 'google-translate)
+(require 'google-translate-smooth-ui)
+(global-set-key "\C-ct" 'google-translate-smooth-translate)
+(setq google-translate-translation-directions-alist
+      '(("en" . "sr") ("rs" . "sr")))
+
+;; google-this settings
+(google-this-mode 1)
