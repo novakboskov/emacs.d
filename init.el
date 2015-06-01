@@ -107,7 +107,7 @@ Position the cursor at it's beginning, according to the current mode."
  '(eclim-eclipse-dirs (quote ("/opt/eclipse")))
  '(eclim-executable "~/.eclipse/org.eclipse.platform_4.4.0_1473617060_linux_gtk_x86_64/eclim")
  '(inhibit-startup-screen t)
- '(org-agenda-files (quote ("/media/novak/Storage/Emacs/plans.org" "/media/novak/Storage/Emacs/org-mode/tutorial.org"))))
+ '(org-agenda-files (quote ("/media/novak/Storage/org/plans.org" "/media/novak/Storage/org/clojure.org" "/media/novak/Storage/org/fakultet.org" "/media/novak/Storage/org/notes.org"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -276,16 +276,16 @@ there's a region, all lines that region covers will be duplicated."
 (sp-pair "\"" "\"")
 
 ;; Hide show minor mode enable on startup - preinstalled
-;; (hs-minor-mode t)
+;;(hs-minor-mode t)
 
 ;; Org-mode configuration
-(setq org-agenda-files (list "/media/novak/Storage/Emacs/org-mode/"))
+(setq org-agenda-files (list "/media/novak/Storage/org/"))
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-cc" 'org-capture)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
 (setq org-todo-keywords
-      '((sequence "TODO(t)" "FEEDBACK(f)" "VERIFY(v)" "|" "DONE(d)" "DELEGATED(l)")))
+       '((sequence "TODO(t)" "FEEDBACK(f)" "VERIFY(v)" "|" "DONE(d)" "DELEGATED(l)")))
 (setq org-enforce-todo-dependencies t)
 
 (defun org-summary-todo (n-done n-not-done)
@@ -304,18 +304,43 @@ there's a region, all lines that region covers will be duplicated."
 
 ;; The following customization sets a default target file for notes
 ;; (setq org-default-notes-file (concat org-directory "/notes.org"))
-(setq org-default-notes-file "/media/novak/Storage/Emacs/org-mode/notes.org")
+(setq org-default-notes-file "/media/novak/Storage/org/notes.org")
 (define-key global-map "\C-cc" 'org-capture)
 
 ;; In order to include entries from the Emacs diary into Org mode's agenda
 (setq org-agenda-include-diary t)
+
+;; end org-mode configuration
 
 ;; google-translate settings
 (require 'google-translate)
 (require 'google-translate-smooth-ui)
 (global-set-key "\C-ct" 'google-translate-smooth-translate)
 (setq google-translate-translation-directions-alist
-      '(("en" . "sr") ("rs" . "sr")))
+      '(("en" . "sr") ("sr" . "en")))
 
 ;; google-this settings
 (google-this-mode 1)
+
+;; JavaScript settings
+(add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
+(add-hook 'js-mode-hook 'js2-minor-mode)
+(add-hook 'js2-mode-hook 'ac-js2-mode)
+(setq js2-highlight-level 3)
+
+(add-hook 'js-mode-hook (lambda () (tern-mode t)))
+(eval-after-load 'tern
+   '(progn
+      (require 'tern-auto-complete)
+      (tern-ac-setup)))
+
+;; Skewer javascript REPL
+(add-hook 'js2-mode-hook 'skewer-mode)
+(add-hook 'css-mode-hook 'skewer-css-mode)
+(add-hook 'html-mode-hook 'skewer-html-mode)
+
+;; Flycheck for javascript
+(require 'flycheck)
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+;;; init.el ends here
