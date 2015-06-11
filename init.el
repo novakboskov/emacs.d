@@ -9,9 +9,6 @@
 ;;disable toolbar
 (tool-bar-mode -1)
 
-;;load theme
-;;(load-theme 'professional t)
-
 ;; face font size
 (set-face-attribute 'default nil :height 110)
 ;;line numbers mode globally
@@ -85,8 +82,7 @@ Position the cursor at it's beginning, according to the current mode."
 ;; auto-complete
 ;; (add-hook 'robe-mode-hook 'ac-robe-setup)
 ;; use company mode for completion
-(add-to-list 'load-path "./elpa/company-20150306.1548/")
-(autoload 'company-mode "company" nil t)
+(setq company-auto-complete t)
 (add-hook 'after-init-hook 'global-company-mode)
 ;;(push 'company-robe company-backends) ;; from dgutov/robe
 ;; set company-robe on ruby-mode-hook
@@ -253,11 +249,11 @@ there's a region, all lines that region covers will be duplicated."
 
 ;; Yasnippet
 (add-to-list 'load-path
-	    "~/home/novak/.emacs.d/elpa/yasnippet-20150212.240/")
+	    "./elpa/yasnippet-20150415.244/")
 (require 'yasnippet)
 (yas-global-mode 1)
 (setq yas-snippet-dirs 
-      '("./elpa/yasnippet-20150212.240/snippets/"))
+      '("./elpa/yasnippet-20150415.244/snippets/"))
 
 ;; flymake-ruby syntax on fly checking
 (require 'flymake-ruby)
@@ -342,5 +338,8 @@ there's a region, all lines that region covers will be duplicated."
 ;; Flycheck for javascript
 (require 'flycheck)
 (add-hook 'after-init-hook #'global-flycheck-mode)
+
+;; Alchemist elixir mode
+;; (setq alchemist-project-compile-when-needed t)
 
 ;;; init.el ends here
