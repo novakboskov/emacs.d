@@ -1,0 +1,1 @@
+#s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8 data ("/media/novak/Storage/org/" ("proba.org" ".#proba.org" "clojure.org" "emacs.org" "emacs.org~" "fakultet.org" "microservices.org" "plans.org")))
